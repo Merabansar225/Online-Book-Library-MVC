@@ -1,0 +1,63 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 13px;
+	background-color: #f4e9dc;
+}
+
+.header {
+	background-color: #5a3921;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+.search-form {
+	display: flex;
+	align-items: center;
+}
+
+.search-input {
+	width: 60%;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-primary {
+	background-color: #6b4423;
+	color: white;
+	border-color: #6b4423;
+}
+
+.btn-primary:hover {
+	background-color: #8b5425;
+	border-color: #8b5425;
+	color: #ffffff;
+}
+
+.action-buttons {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.modal-content {
+	border-radius: 20px;
+}
+
+.modal-body {
+	padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.modal-footer {
+	padding: 1rem;
+}
+
+.close {
+	outline: none;
+	border: none;
+}
+
+
